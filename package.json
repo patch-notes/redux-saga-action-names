@@ -1,0 +1,24 @@
+{
+  "name": "redux-saga-action-names",
+  "version": "0.0.2",
+  "description": "A simple helper for action names, specially useful with redux-saga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --out-dir dist",
+    "prepublish": "npm build"
+  },
+  "keywords": [
+    "redux",
+    "saga",
+    "redux-saga",
+    "actions"
+  ],
+  "author": "Martin E. Zulliger <exe@thepeak.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
