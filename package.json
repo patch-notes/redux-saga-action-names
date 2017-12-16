@@ -2,7 +2,7 @@
   "name": "redux-saga-action-names",
   "version": "0.0.2",
   "description": "A simple helper for action names, specially useful with redux-saga",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel index.js --out-dir dist",
